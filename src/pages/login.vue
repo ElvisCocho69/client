@@ -128,7 +128,7 @@
                 </VAlert>
 
                 <!-- login button -->
-                <VBtn block type="submit" style="margin-top: 5px;">
+                <VBtn block type="submit" class="mt-4">
                   Iniciar Sesión
                 </VBtn>
               </VCol>
