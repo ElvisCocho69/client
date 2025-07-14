@@ -133,7 +133,7 @@ const submitDesign = async () => {
           })
         }
 
-        const response = await fetch('http://127.0.0.1:8080/designs', {
+        const response = await $api('/designs', {
           method: 'POST',
           headers: {
             'Authorization': `Bearer ${localStorage.getItem('token')}`
